@@ -17,7 +17,7 @@ A smart facial recognition attendance and access system that includes **liveness
 
 ## 🛠️ Tech Stack
 
-- **Python 3.9**
+- **Python 3.9 - 3.11**
 - **OpenCV** – Real-time webcam feed and overlays
 - **dlib** – Facial landmark detection
 - **face_recognition** – Face encoding and recognition
