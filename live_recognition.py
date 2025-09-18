@@ -33,8 +33,8 @@ LIVENESS_CHECK_BLINK_COUNT = 1
 
 # --- Helper function to send Telegram message ---
 def send_telegram_message(message):
-    """Sends a message to the configured Telegram chat."""
-    if TELEGRAM_BOT_TOKEN == 'YOUR_TELEGRAM_BOT_TOKEN_HERE' or TELEGRAM_CHAT_ID == 'YOUR_TELEGRAM_CHAT_ID_HERE':
+    """Sends a message to the configured Telegram chat"""
+    if TELEGRAM_BOT_TOKEN == 'TELEGRAM_BOT_TOKEN' or TELEGRAM_CHAT_ID == 'TELEGRAM_CHAT_ID':
         print("WARNING: Telegram bot not configured. Please set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in the script.")
         return
 
